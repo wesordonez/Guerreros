@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guerrero's Pizza and Tacos</title>
+    <!-- Bootstrap Import -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <!-- CSS Import -->
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <!-- Google Fonts Import -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chicle&family=Montserrat:wght@300;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome Import -->
+    <script
+      src="https://kit.fontawesome.com/9451864d27.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Your HTML content goes here -->
+    <!-- Site Header  -->
+    <div class="header">
+      <div class="logo_div">
+        <img
+          class="logo"
+          src="pics/Guerrero's Tacos & Pizza Logo Final.png"
+          alt="Guerrero's Pizza and Tacos"
+        />
+      </div>
+      <div class="title_div">
+        <h1 class="title">GUERRERO'S</h1>
+        <h2 class="subtitle">PIZZA & TACOS</h2>
+      </div>
+
+      <!-- Site Navigation -->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid navbar_div">
+          <button
+            class="navbar-toggler navbar_btn"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="menu.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+            <button class="btn btn-light" type="submit">Order Now!</button>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Gallery Carousel Section -->
+    <div class="photo_section">
+      <div id="carouselHomepagePhotos" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselHomepagePhotos"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselHomepagePhotos"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselHomepagePhotos"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="pics/pizza-hero.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="pics/burgers-ref.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="pics/birria-tacos.jpg" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselHomepagePhotos"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselHomepagePhotos"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Ratings/Testimonial Section-->
+    <div class="rating_section">
+      <div id="carouselTestimonials" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselTestimonials"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselTestimonials"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselTestimonials"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <!-- First Testimonial -->
+            <div class="first_rating ratingCard">
+              <div class="rating">
+                <i class="fas fa-star starIcon"></i>
+                <i class="fas fa-star starIcon"></i>
+                <i class="fas fa-star starIcon"></i>
+                <i class="fas fa-star starIcon"></i>
+                <i class="fas fa-star starIcon"></i>
+              </div>
+              <div class="profileBackground">
+                <img
+                  class="profilePic"
+                  src="pics/testimonial1.jpg"
+                  alt="Profile Picture"
+                />
+              </div>
+              <div class="ratingName">
+                <p>Jamie L.</p>
+                <p>Chicago, IL</p>
+              </div>
+              <div class="ratingQuote">
+                <p>
+                  " Their late-night tacos are a game-changer! After a long
+                  night out, there's nothing better. Plus, the staff is always
+                  super friendly! "
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <!-- Second Testimonial -->
+            <div class="second_rating ratingCard">
+              <div class="rating">
+                <i class="fas fa-star starIcon"></i>
+                <i class="fas fa-star starIcon"></i>
+                <i class="fas fa-star starIcon"></i>
+                <i class="fas fa-star starIcon"></i>
+                <i class="fas fa-star starIcon"></i>
+              </div>
+              <div class="profileBackground">
+                <img
+                  class="profilePic"
+                  src="pics/testimonial2.jpg"
+                  alt="Profile Picture"
+                />
+              </div>
+              <div class="ratingName">
+                <p>Mike R.</p>
+                <p>Chicago, IL</p>
+              </div>
+              <div class="ratingQuote">
+                <p>
+                  " The Carnivore's Delight pizza is my go-to. The meaty
+                  toppings are plentiful and cooked to perfection. Best pizza
+                  spot in Humboldt Park! "
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <!-- Third Testimonial -->
+            <div class="third_rating ratingCard">
+              <div class="rating">
+                <i class="fas fa-star starIcon"></i>
+                <i class="fas fa-star starIcon"></i>
+                <i class="fas fa-star starIcon"></i>
+                <i class="fas fa-star starIcon"></i>
+                <i class="fas fa-star starIcon"></i>
+              </div>
+              <div class="profileBackground">
+                <img
+                  class="profilePic"
+                  src="pics/testimonial3.jpg"
+                  alt="Profile Picture"
+                />
+              </div>
+              <div class="ratingName">
+                <p>Sara J.</p>
+                <p>Chicago, IL</p>
+              </div>
+              <div class="ratingQuote">
+                <p>
+                  " We love the affordability and variety at Guerrero's. It's
+                  our neighborhood favorite. Try the burgers, you won't be
+                  disappointed! "
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselTestimonials"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselTestimonials"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Call to Action Section -->
+    <div class="CTA_div">
+      <p>ORDER NOW!</p>
+      <!-- Create three buttons using bootstrap light style for delivery, dine in, and take out options-->
+      <div class="d-grid gap-2 d-lg-block ctaGrid">
+        <button class="btn btn-light ctaButtons" type="submit">Dine In</button>
+        <button class="btn btn-light ctaButtons" type="submit">Pick Up</button>
+        <button class="btn btn-light ctaButtons" type="submit">Delivery</button>
+      </div>
+    </div>
+
+    <!-- About Us Section -->
+    <div class="about_div">
+      <div class="aboutTitle">
+        <p>Meet the Guerreros</p>
+      </div>
+      <!-- About Us Content Layout -->
+
+      <div class="aboutFlex">
+        <div class="aboutProfile1">
+          <div class="profileBackground">
+            <img
+              class="profilePic"
+              src="pics/testimonial3.jpg"
+              alt="Profile Picture"
+            />
+          </div>
+          <div class="ratingName">
+            <p>Nicolas Guerrero Jr.</p>
+            <p>Chicago, IL</p>
+          </div>
+        </div>
+        <div class="aboutProfile2">
+          <div class="profileBackground">
+            <img
+              class="profilePic"
+              src="pics/testimonial3.jpg"
+              alt="Profile Picture"
+            />
+          </div>
+          <div class="ratingName">
+            <p>Nicolas Guerrero Jr.</p>
+            <p>Chicago, IL</p>
+          </div>
+        </div>
+        <div class="aboutContent">
+          <p class="aboutContentText">
+            Welcome to Guerrero's Pizza and Tacos! Humboldt Park's go-to spot
+            for delicious, affordable, and satisfying fast food! For over 10
+            years, our family-owned restaurant has been proudly serving the
+            community with crave-worthy pizzas, tacos, burgers, and sandwiches.
+            Our father and son duo are passionate about creating mouthwatering
+            dishes that cater to everyone, from young party goers to late-night
+            munchie-seekers. We use fresh ingredients and authentic flavors to
+            satisfy all your cravings without breaking the bank. At Guerrero's,
+            we're all about great food, exceptional value, and a relaxed
+            atmosphere. Swing by during our late-night hours and experience the
+            best of Humboldt Park's culinary scene. We can't wait to welcome you
+            into our family!
+          </p>
+        </div>
+      </div>
+      <!-- Add contact button using bootstrap -->
+      <div class="contactButton d-lg-grid mx-auto d-sm-grid mx-auto col-4">
+        <a class="contactBtn" href="contact.html">
+        <button class="btn btn-light btn-lg contactBtn" type="submit">
+          Contact Us!
+        </button>
+    </a>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="footerFlex">
+        <!-- <div class="footerLogo">
+          <div class="logo_div">
+            <img
+              class="logo"
+              src="pics/Guerrero's Tacos & Pizza Logo Final.png"
+              alt="Guerrero's Pizza and Tacos"
+            />
+          </div>
+        </div> -->
+        <div class="footerTitle">
+          <div class="title_div">
+            <h1 class="title">GUERRERO'S</h1>
+            <h2 class="subtitle">PIZZA & TACOS</h2>
+          </div>
+        </div>
+        <div class="footerContentFlex">
+          <div class="footerPhone">
+            <p class="phone">
+              <i class="fa-solid fa-phone"> </i>
+              (773)232-0721
+            </p>
+          </div>
+
+          <div class="footerEmail">
+            <p class="email">
+              <i class="fa-solid fa-envelope"> </i>
+              info@guerreros@gmail.com
+            </p>
+          </div>
+
+          <div class="footerAddress">
+            <p class="address">
+              <i class="fa-solid fa-house"> </i>
+              2235 W Division St, Chicago, IL 60622
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // JavaScript code goes here
+    </script>
+    <!-- Bootstrap JS Import-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

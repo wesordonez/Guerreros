@@ -1,0 +1,472 @@
+
+/* Header Styles */
+.header {
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    display:flex;
+    flex-direction: row;
+    background-color: #E79955;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #DED5C5;
+}
+
+.logo_div {
+    margin:auto, auto, auto, 0;
+    padding: 0;
+}
+.logo {
+    width: 170px;
+    height: 150px;
+    background-color: #E79955;
+}
+
+.title_div {
+    margin:auto;
+    padding: 0;
+}
+.title {
+    font-family: 'Chicle', cursive;
+    font-size: 50px;
+    color: #FFFFFF;
+    margin:auto;
+    letter-spacing: 0.3rem;
+}
+.subtitle {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    color: #FFFFFF;
+    margin: auto;
+}
+
+.header_btn {
+    background-color: #FFFFFF;
+    justify-content: center;
+}
+.navbar_div {
+    background-color: #E79955;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+/* Body Styles */
+
+/* Rating/Testimonials Styles */
+.ratingCard {
+    text-align: center;
+}
+.profileBackground {
+    display: inline-block;
+    padding: 7px;
+    background-color: #CAA991;
+    border-radius: 50%;
+}
+.profilePic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: auto;
+}
+.starIcon {
+    color: #E79955;
+    font-size: 2.3rem;
+    padding: 20px;
+    margin-top: 60px;
+}
+.ratingQuote {
+    font-family: 'Chicle', cursive;
+    font-size: 3rem;
+    color: #FFFFFF;
+    padding: 3% 10%;
+}
+.ratingName{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: #707070;
+    margin-top: 20px;
+
+}
+p + p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.3rem;
+}
+
+/* Call to Action */
+.CTA_div {
+    background-color: #E79955;
+    text-align: center;
+    font-family: 'Chicle', cursive;
+    font-size: 90px;
+    letter-spacing: 0.3rem;
+    color: #AA4531;
+    padding: 60px;
+}
+.ctaButtons {
+    --bs-btn-font-size: 3rem;
+    --bs-btn-border-radius: 1.5rem;
+    --bs-btn-padding-y: 4rem;
+    --bs-btn-padding-x: 8%;
+    background-color: #AA4531;
+    color: #FFFFFF;
+    border-color: #AA4531;
+}
+.ctaButtons:hover {
+    background-color: #DED5C5;
+    color: #AA4531;
+    border-color: #E79955;
+}
+
+.about_div {
+    margin: auto;
+    background-color: #DED5C5;
+}
+.footer_div {
+    background-color: #E79955;
+    justify-content: center;
+    text-align: center;
+}
+
+/* About Section Styles */
+.aboutTitle {
+    margin: auto;
+    color: #FFFFFF;
+    font-family: "Chicle", cursive;
+    font-size: 3rem;
+    letter-spacing: 0.3rem;
+    text-align: center;
+    padding: 3%;
+}
+.about_div {
+    justify-content: center;
+}
+
+/* Source order for mobile-first approach
+ * in this case:
+ * 1. Title
+ * 2. Profile 1
+ * 3. Profile 2
+ * 4. Content
+ */
+
+.aboutFlex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap:  row wrap;
+}
+.aboutProfile1 {
+    flex: 1 auto;
+    text-align: center;
+    padding: 5%;
+}
+.aboutProfile2 {
+    flex: 1 auto;
+    text-align: center;
+    padding: 5%;
+}
+.aboutContent {
+    flex: 1 auto;
+    text-align: center;
+    padding: 5%;
+    
+}
+.aboutContent .aboutContentText {
+    font-family: 'montserrat', sans-serif;
+    font-size: 20px;
+}
+
+/* Medium Screens */
+@media all and (min-width: 1000px) {
+    .aboutFlex {
+        flex-wrap:  row wrap;
+        flex-direction: row;
+    }
+    .aboutProfile1 {
+        order: -1;
+        flex: 2 1 1;
+        
+    }
+    .aboutProfile2 {
+        order: 1;
+        flex: 2 1 1;
+    }
+    .aboutContent {
+        order: -1;
+        flex: 3 1 1;
+    }
+    
+    
+    
+}
+
+.contactBtn {
+    margin: auto;
+    justify-content: center;
+    font-family: 'chicle', cursive;
+    font-size: 2rem;
+    margin-bottom: 15%;
+    color: #37495D;
+    
+}
+
+/* Footer Styles */
+footer {
+    background-color: #E79955;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+.footerFlex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footerLogo {
+    order: 3;
+}
+.footerTitle {
+    order: 1;
+    padding: 5%;
+}
+.footerContentFlex {
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2%;
+}
+
+/* Contact Page Styles */
+.contactTitle {
+    font-family: 'chicle', cursive;
+    font-size: 3rem;
+    color: #FFFFFF;
+    letter-spacing: 0.3rem;
+    text-align: center;
+    padding: 3%;
+}
+.contactContent {
+    font-family: 'montserrat', sans-serif;
+    font-size: 20px;
+    color: #707070;
+    letter-spacing: 0.3rem;
+    text-align: center;
+    padding: 0 3%;
+}
+.contactForm {
+    padding: 3%;
+    font-family: 'montserrat', sans-serif;
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Menu Page Styles */
+.menuDiv {
+    background-color: #DED5C5;
+    justify-content: center;
+    text-align: center;
+}
+.methodFlex {
+    display: none;
+    flex-direction: row;
+    flex-wrap:  row wrap;
+    /* gap: 2%; */
+    /* justify-content: center; */
+    padding: 5%;
+    align-content: space-between;
+}
+.method1 {
+    flex: 1 auto;
+    text-align: center;
+    padding: 5%;
+}
+.method2 {
+    flex: 1 auto;
+    text-align: center;
+    padding: 5%;
+}
+.method3 {
+    flex: 1 auto;
+    text-align: center;
+    padding: 5%;
+}
+.menuTitle {
+    font-family: 'chicle', cursive;
+    font-size: 3rem;
+    color: #FFFFFF;
+    letter-spacing: 0.3rem;
+    text-align: center;
+    padding: 3%;
+}
+
+/* Menu Items Accordion */
+.accordion-button {
+    background-color: #AA4531;
+    color: #FFFFFF;
+    text-align: center;
+}
+.accordion-item {
+    background-color: #DED5C5;
+    color: #707070;
+    
+}
+.accordion-button:not(.collapsed) {
+    background-color: #E79955;
+    color: #fff;
+  }
+  .accordion-button:hover {
+    background-color: #CAA991;
+    color: #fff;
+  }
+ 
+  .custom-center {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  @media all and (max-width: 600px) {
+    .custom-center {
+        display: inline-block;
+        
+    }
+    .custom-center::after {
+        display: none;
+    }
+}
+.menuSectionTitle {
+    font-family: 'chicle', cursive;
+    font-size: 3rem;
+    color: #37495D;
+    letter-spacing: 0.3rem;
+    text-align: center;
+    padding: 3% auto 0 auto;
+}
+.menuSectionDescription {
+    font-family: 'montserrat', sans-serif;
+    font-size: 20px;
+    color: #707070;
+    letter-spacing: 0.3rem;
+    text-align: center;
+    padding:  3%;
+}
+
+/* Test Component Styles */
+.testContainer {
+    background-color: #707070;
+    height: 500px;
+    margin-bottom: 50px;
+    padding: 20% 0 50% 0;
+    overflow: hidden;
+    display: none;
+}
+.menuComponentItem {
+    background-color: #DED5C5;
+    margin: auto 10px;
+    padding: 10px;
+}
+.itemImageBackground {
+    display: flex;
+    flex-direction: column;
+    flex-flow: nowrap;
+    transition: all .2s ease-in-out;
+
+}
+.itemImage {
+    /* background-color: #DED5C5; */
+    flex-grow: 1;
+    flex-shrink: 1;
+    order: 1;
+    margin:  auto;
+    z-index: 1; 
+    padding: 1px;
+    margin-left: 2%;
+}
+.itemImage img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    
+}
+.itemContent {
+    background-color: #FFFFFF;
+    padding: 5px;
+    flex-grow: 5;
+    order: 2;
+    border-radius: 20px;
+    margin: auto auto;
+    margin-left: -130px;
+    z-index: 0;
+    margin-right: 3%;
+    box-shadow: 10px 10px 10px -5px rgba(150, 150, 150, 0.7)
+
+
+}
+.itemImageBgn {
+    padding:10px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    margin: auto;
+    background-color: #CAA991;
+    box-shadow: 10px 10px 10px -5px rgba(150, 150, 150, 0.7)
+}
+.itemContentFlex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-left: 150px;
+    margin-top: auto;
+}
+.itemTitle {
+    font-family: 'chicle', cursive;
+    font-size: 2rem;
+    color: #37495D;
+    letter-spacing: 0.3rem;
+    text-align: center;
+    padding: 0 3%;
+    flex-shrink: 1;
+
+}
+.itemDescription {
+    font-family: 'montserrat', sans-serif;
+    font-size: 1rem;
+    color: #707070;
+    letter-spacing: 0.2rem;
+    text-align: left;
+    padding: 0 3%;
+    order: 3;
+}
+.itemPrice {
+    font-family: 'chicle', cursive;
+    font-size: 2.5rem;
+    color: #37495D;
+    letter-spacing: 0.3rem;
+    text-align: center;
+    padding: auto 1%;
+    order: 2;
+}
+@media all and (max-width: 650px) {
+    .itemDescription {
+        display: none;
+    }
+    .itemContentFlex {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 140px;
+    }
+    
+}
+.itemImageBackground:hover {
+    transform: scale(1.05);
+}

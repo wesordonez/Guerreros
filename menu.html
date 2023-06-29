@@ -1,0 +1,1816 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu</title>
+    <!-- Bootstrap Import -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <!-- CSS Import -->
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <!-- Google Fonts Import -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chicle&family=Montserrat:wght@300;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome Import -->
+    <script
+      src="https://kit.fontawesome.com/9451864d27.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Site Header  -->
+    <div class="header">
+      <div class="logo_div">
+        <img
+          class="logo"
+          src="pics/Guerrero's Tacos & Pizza Logo Final.png"
+          alt="Guerrero's Pizza and Tacos"
+        />
+      </div>
+      <div class="title_div">
+        <h1 class="title">GUERRERO'S</h1>
+        <h2 class="subtitle">PIZZA & TACOS</h2>
+      </div>
+
+      <!-- Site Navigation -->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid navbar_div">
+          <button
+            class="navbar-toggler navbar_btn"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link"  href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="menu.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+            <button class="btn btn-light" type="submit">Order Now!</button>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Menu Section -->
+    <div class="menuDiv">
+      <div class="methodFlex">
+        <div class="method1">
+          <button class="btn btn-light" type="submit">Dine In</button>
+        </div>
+        <div class="method2">
+          <button class="btn btn-light" type="submit">Take Out</button>
+        </div>
+        <div class="method3">
+          <button class="btn btn-light" type="submit">Delivery</button>
+        </div>
+      </div>
+      <div class="menuTitle">
+        <p>Menu</p>
+      </div>
+
+      <!-- Test Component Section -->
+      <!-- Individual Menu Items -->
+      <div class="testContainer">
+        <div class="menuComponentItem">
+          <div class="itemImageBackground">
+            <div class="itemImage">
+              <div class="itemImageBgn">
+                <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+              </div>
+            </div>
+            <div class="itemContent">
+              <div class="itemContentFlex">
+                <div class="itemTitle">
+                  <p>Meat Lover's Pizza</p>
+                </div>
+                <div class="itemDescription">
+                  <p>
+                    A mouthwatering medley of pepperoni, sausage, bacon, ham,
+                    chicken, and mozzarella atop our flavorful tomato sauce
+                  </p>
+                </div>
+                <div class="itemPrice">
+                  <p>$15</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Menu Items -->
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <!-- Pizza Items -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed custom-center"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne"
+              aria-expanded="false"
+              aria-controls="flush-collapseOne"
+            >
+              Pizza
+            </button>
+          </h2>
+          <div
+            id="flush-collapseOne"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              <!-- Menu Section Description -->
+              <div class="menuSectionTitle">
+                <p>Guerrero's Pizza</p>
+              </div>
+              <div class="menuSectionDescription">
+                <p>
+                  Our pizzas are made with the finest and freshest ingredients.
+                  We offer a variety of specialty pizzas, or you can build your
+                  own!
+                </p>
+              </div>
+              <!-- Item 1 -->
+              <div class="menuComponentItem">
+                <div class="itemImageBackground">
+                  <div class="itemImage">
+                    <div class="itemImageBgn">
+                      <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                    </div>
+                  </div>
+                  <div class="itemContent">
+                    <div class="itemContentFlex">
+                      <div class="itemTitle">
+                        <p>Meat Lover's Pizza</p>
+                      </div>
+                      <div class="itemDescription">
+                        <p>
+                          A mouthwatering medley of pepperoni, sausage, bacon,
+                          ham, chicken, and mozzarella atop our flavorful tomato
+                          sauce
+                        </p>
+                      </div>
+                      <div class="itemPrice">
+                        <p>$15</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 2 -->
+              <div class="menuComponentItem">
+                <div class="itemImageBackground">
+                  <div class="itemImage">
+                    <div class="itemImageBgn">
+                      <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                    </div>
+                  </div>
+                  <div class="itemContent">
+                    <div class="itemContentFlex">
+                      <div class="itemTitle">
+                        <p>Veggie Pizza</p>
+                      </div>
+                      <div class="itemDescription">
+                        <p>
+                          A mouthwatering medley of pepperoni, sausage, bacon,
+                          ham, chicken, and mozzarella atop our flavorful tomato
+                          sauce
+                        </p>
+                      </div>
+                      <div class="itemPrice">
+                        <p>$15</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 3 -->
+              <div class="menuComponentItem">
+                <div class="itemImageBackground">
+                  <div class="itemImage">
+                    <div class="itemImageBgn">
+                      <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                    </div>
+                  </div>
+                  <div class="itemContent">
+                    <div class="itemContentFlex">
+                      <div class="itemTitle">
+                        <p>Hawaiian Pizza</p>
+                      </div>
+                      <div class="itemDescription">
+                        <p>
+                          A mouthwatering medley of pepperoni, sausage, bacon,
+                          ham, chicken, and mozzarella atop our flavorful tomato
+                          sauce
+                        </p>
+                      </div>
+                      <div class="itemPrice">
+                        <p>$15</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Pasta Items -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed custom-center"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo"
+              aria-expanded="false"
+              aria-controls="flush-collapseTwo"
+            >
+              Pastas
+            </button>
+          </h2>
+          <div
+            id="flush-collapseTwo"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              <!-- Menu Section Description -->
+              <div class="menuSectionTitle">
+                <p>Guerrero's Pastas</p>
+              </div>
+              <div class="menuSectionDescription">
+                <p>
+                  Dive into our pasta dishes, twirled with fresh ingredients and
+                  paired with warm garlic bread, parmesan, and a sprinkle of
+                  crushed pepper. It's a tastebud party waiting to happen!
+                </p>
+              </div>
+              <!-- Item 1 -->
+              <div class="menuComponentItem">
+                <div class="itemImageBackground">
+                  <div class="itemImage">
+                    <div class="itemImageBgn">
+                      <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                    </div>
+                  </div>
+                  <div class="itemContent">
+                    <div class="itemContentFlex">
+                      <div class="itemTitle">
+                        <p>Spaghetti</p>
+                      </div>
+                      <div class="itemDescription">
+                        <p>
+                          A mouthwatering medley of pepperoni, sausage, bacon,
+                          ham, chicken, and mozzarella atop our flavorful tomato
+                          sauce
+                        </p>
+                      </div>
+                      <div class="itemPrice">
+                        <p>$7.48</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 2 -->
+              <div class="menuComponentItem">
+                <div class="itemImageBackground">
+                  <div class="itemImage">
+                    <div class="itemImageBgn">
+                      <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                    </div>
+                  </div>
+                  <div class="itemContent">
+                    <div class="itemContentFlex">
+                      <div class="itemTitle">
+                        <p>Mostaccioli</p>
+                      </div>
+                      <div class="itemDescription">
+                        <p>
+                          A mouthwatering medley of pepperoni, sausage, bacon,
+                          ham, chicken, and mozzarella atop our flavorful tomato
+                          sauce
+                        </p>
+                      </div>
+                      <div class="itemPrice">
+                        <p>$7.48</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 3 -->
+              <div class="menuComponentItem">
+                <div class="itemImageBackground">
+                  <div class="itemImage">
+                    <div class="itemImageBgn">
+                      <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                    </div>
+                  </div>
+                  <div class="itemContent">
+                    <div class="itemContentFlex">
+                      <div class="itemTitle">
+                        <p>Shrimp Broccioli</p>
+                      </div>
+                      <div class="itemDescription">
+                        <p>
+                          A mouthwatering medley of pepperoni, sausage, bacon,
+                          ham, chicken, and mozzarella atop our flavorful tomato
+                          sauce
+                        </p>
+                      </div>
+                      <div class="itemPrice">
+                        <p>$9.75</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 4 -->
+              <div class="menuComponentItem">
+                <div class="itemImageBackground">
+                  <div class="itemImage">
+                    <div class="itemImageBgn">
+                      <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                    </div>
+                  </div>
+                  <div class="itemContent">
+                    <div class="itemContentFlex">
+                      <div class="itemTitle">
+                        <p>Baked Mostaccioli</p>
+                      </div>
+                      <div class="itemDescription">
+                        <p>
+                          A mouthwatering medley of pepperoni, sausage, bacon,
+                          ham, chicken, and mozzarella atop our flavorful tomato
+                          sauce
+                        </p>
+                      </div>
+                      <div class="itemPrice">
+                        <p>$9.52</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 5 -->
+              <div class="menuComponentItem">
+                <div class="itemImageBackground">
+                  <div class="itemImage">
+                    <div class="itemImageBgn">
+                      <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                    </div>
+                  </div>
+                  <div class="itemContent">
+                    <div class="itemContentFlex">
+                      <div class="itemTitle">
+                        <p>Chicken Parmigiana</p>
+                      </div>
+                      <div class="itemDescription">
+                        <p>
+                          A mouthwatering medley of pepperoni, sausage, bacon,
+                          ham, chicken, and mozzarella atop our flavorful tomato
+                          sauce
+                        </p>
+                      </div>
+                      <div class="itemPrice">
+                        <p>$12.02</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 6 -->
+              <div class="menuComponentItem">
+                <div class="itemImageBackground">
+                  <div class="itemImage">
+                    <div class="itemImageBgn">
+                      <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                    </div>
+                  </div>
+                  <div class="itemContent">
+                    <div class="itemContentFlex">
+                      <div class="itemTitle">
+                        <p>Chicken Alfredo</p>
+                      </div>
+                      <div class="itemDescription">
+                        <p>
+                          A mouthwatering medley of pepperoni, sausage, bacon,
+                          ham, chicken, and mozzarella atop our flavorful tomato
+                          sauce
+                        </p>
+                      </div>
+                      <div class="itemPrice">
+                        <p>$12.02</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Sandwich Items -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed custom-center"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseThree"
+              aria-expanded="false"
+              aria-controls="flush-collapseThree"
+            >
+              Sandwiches
+            </button>
+          </h2>
+          <div
+            id="flush-collapseThree"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              <!-- Menu Section Description -->
+              <div class="menuSectionTitle">
+                <p>Guerrero's Sandwiches</p>
+              </div>
+              <div class="menuSectionDescription">
+                <p>
+                  Bite into our flavor-packed sandwiches, loaded with fresh
+                  ingredients for a handheld feast. It's lunchtime satisfaction
+                  at its best – don't forget to pair it with our crispy fries
+                  for the full flavor experience!
+                </p>
+              </div>
+              <!-- Item 1 -->
+              <div class="menuComponentItem">
+                <div class="itemImageBackground">
+                  <div class="itemImage">
+                    <div class="itemImageBgn">
+                      <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                    </div>
+                  </div>
+                  <div class="itemContent">
+                    <div class="itemContentFlex">
+                      <div class="itemTitle">
+                        <p>Italian Beef</p>
+                      </div>
+                      <div class="itemDescription">
+                        <p>
+                          A mouthwatering medley of pepperoni, sausage, bacon,
+                          ham, chicken, and mozzarella atop our flavorful tomato
+                          sauce
+                        </p>
+                      </div>
+                      <div class="itemPrice">
+                        <p>$8.39</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 2 -->
+              <div class="menuComponentItem">
+                <div class="itemImageBackground">
+                  <div class="itemImage">
+                    <div class="itemImageBgn">
+                      <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                    </div>
+                  </div>
+                  <div class="itemContent">
+                    <div class="itemContentFlex">
+                      <div class="itemTitle">
+                        <p>Italian Sausage</p>
+                      </div>
+                      <div class="itemDescription">
+                        <p>
+                          A mouthwatering medley of pepperoni, sausage, bacon,
+                          ham, chicken, and mozzarella atop our flavorful tomato
+                          sauce
+                        </p>
+                      </div>
+                      <div class="itemPrice">
+                        <p>$6.35</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 3 -->
+              <div class="menuComponentItem">
+                <div class="itemImageBackground">
+                  <div class="itemImage">
+                    <div class="itemImageBgn">
+                      <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                    </div>
+                  </div>
+                  <div class="itemContent">
+                    <div class="itemContentFlex">
+                      <div class="itemTitle">
+                        <p>Meatball</p>
+                      </div>
+                      <div class="itemDescription">
+                        <p>
+                          A mouthwatering medley of pepperoni, sausage, bacon,
+                          ham, chicken, and mozzarella atop our flavorful tomato
+                          sauce
+                        </p>
+                      </div>
+                      <div class="itemPrice">
+                        <p>$6.35</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 4 -->
+              <div class="menuComponentItem">
+                <div class="itemImageBackground">
+                  <div class="itemImage">
+                    <div class="itemImageBgn">
+                      <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                    </div>
+                  </div>
+                  <div class="itemContent">
+                    <div class="itemContentFlex">
+                      <div class="itemTitle">
+                        <p>Rib Eye Steak Sandwich</p>
+                      </div>
+                      <div class="itemDescription">
+                        <p>
+                          A mouthwatering medley of pepperoni, sausage, bacon,
+                          ham, chicken, and mozzarella atop our flavorful tomato
+                          sauce
+                        </p>
+                      </div>
+                      <div class="itemPrice">
+                        <p>$10.43</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 5 -->
+              <div class="menuComponentItem">
+                <div class="itemImageBackground">
+                  <div class="itemImage">
+                    <div class="itemImageBgn">
+                      <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                    </div>
+                  </div>
+                  <div class="itemContent">
+                    <div class="itemContentFlex">
+                      <div class="itemTitle">
+                        <p>Premium Grilled Chicken</p>
+                      </div>
+                      <div class="itemDescription">
+                        <p>
+                          A mouthwatering medley of pepperoni, sausage, bacon,
+                          ham, chicken, and mozzarella atop our flavorful tomato
+                          sauce
+                        </p>
+                      </div>
+                      <div class="itemPrice">
+                        <p>$9.30</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 6 -->
+              <div class="menuComponentItem">
+                <div class="itemImageBackground">
+                  <div class="itemImage">
+                    <div class="itemImageBgn">
+                      <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                    </div>
+                  </div>
+                  <div class="itemContent">
+                    <div class="itemContentFlex">
+                      <div class="itemTitle">
+                        <p>Grilled Chicken</p>
+                      </div>
+                      <div class="itemDescription">
+                        <p>
+                          A mouthwatering medley of pepperoni, sausage, bacon,
+                          ham, chicken, and mozzarella atop our flavorful tomato
+                          sauce
+                        </p>
+                      </div>
+                      <div class="itemPrice">
+                        <p>$7.94</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 7 -->
+              <div class="menuComponentItem">
+                <div class="itemImageBackground">
+                  <div class="itemImage">
+                    <div class="itemImageBgn">
+                      <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                    </div>
+                  </div>
+                  <div class="itemContent">
+                    <div class="itemContentFlex">
+                      <div class="itemTitle">
+                        <p>Crispy Chicken</p>
+                      </div>
+                      <div class="itemDescription">
+                        <p>
+                          A mouthwatering medley of pepperoni, sausage, bacon,
+                          ham, chicken, and mozzarella atop our flavorful tomato
+                          sauce
+                        </p>
+                      </div>
+                      <div class="itemPrice">
+                        <p>$6.80</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 8 -->
+              <div class="menuComponentItem">
+                <div class="itemImageBackground">
+                  <div class="itemImage">
+                    <div class="itemImageBgn">
+                      <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                    </div>
+                  </div>
+                  <div class="itemContent">
+                    <div class="itemContentFlex">
+                      <div class="itemTitle">
+                        <p>Club Sandwich</p>
+                      </div>
+                      <div class="itemDescription">
+                        <p>
+                          A mouthwatering medley of pepperoni, sausage, bacon,
+                          ham, chicken, and mozzarella atop our flavorful tomato
+                          sauce
+                        </p>
+                      </div>
+                      <div class="itemPrice">
+                        <p>$7.94</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 9 -->
+              <div class="menuComponentItem">
+                <div class="itemImageBackground">
+                  <div class="itemImage">
+                    <div class="itemImageBgn">
+                      <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                    </div>
+                  </div>
+                  <div class="itemContent">
+                    <div class="itemContentFlex">
+                      <div class="itemTitle">
+                        <p>Fish Sandwich</p>
+                      </div>
+                      <div class="itemDescription">
+                        <p>
+                          A mouthwatering medley of pepperoni, sausage, bacon,
+                          ham, chicken, and mozzarella atop our flavorful tomato
+                          sauce
+                        </p>
+                      </div>
+                      <div class="itemPrice">
+                        <p>$5.44</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 10 -->
+              <div class="menuComponentItem">
+                <div class="itemImageBackground">
+                  <div class="itemImage">
+                    <div class="itemImageBgn">
+                      <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                    </div>
+                  </div>
+                  <div class="itemContent">
+                    <div class="itemContentFlex">
+                      <div class="itemTitle">
+                        <p>BLT</p>
+                      </div>
+                      <div class="itemDescription">
+                        <p>
+                          A mouthwatering medley of pepperoni, sausage, bacon,
+                          ham, chicken, and mozzarella atop our flavorful tomato
+                          sauce
+                        </p>
+                      </div>
+                      <div class="itemPrice">
+                        <p>$7.48</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 11 -->
+              <div class="menuComponentItem">
+                <div class="itemImageBackground">
+                  <div class="itemImage">
+                    <div class="itemImageBgn">
+                      <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                    </div>
+                  </div>
+                  <div class="itemContent">
+                    <div class="itemContentFlex">
+                      <div class="itemTitle">
+                        <p>Grilled Cheese</p>
+                      </div>
+                      <div class="itemDescription">
+                        <p>
+                          A mouthwatering medley of pepperoni, sausage, bacon,
+                          ham, chicken, and mozzarella atop our flavorful tomato
+                          sauce
+                        </p>
+                      </div>
+                      <div class="itemPrice">
+                        <p>$5.44</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 12 -->
+              <div class="menuComponentItem">
+                <div class="itemImageBackground">
+                  <div class="itemImage">
+                    <div class="itemImageBgn">
+                      <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                    </div>
+                  </div>
+                  <div class="itemContent">
+                    <div class="itemContentFlex">
+                      <div class="itemTitle">
+                        <p>Turkey Sub</p>
+                      </div>
+                      <div class="itemDescription">
+                        <p>
+                          A mouthwatering medley of pepperoni, sausage, bacon,
+                          ham, chicken, and mozzarella atop our flavorful tomato
+                          sauce
+                        </p>
+                      </div>
+                      <div class="itemPrice">
+                        <p>$6.35</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 13 -->
+              <div class="menuComponentItem">
+                <div class="itemImageBackground">
+                  <div class="itemImage">
+                    <div class="itemImageBgn">
+                      <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                    </div>
+                  </div>
+                  <div class="itemContent">
+                    <div class="itemContentFlex">
+                      <div class="itemTitle">
+                        <p>Submarine w/ Ham</p>
+                      </div>
+                      <div class="itemDescription">
+                        <p>
+                          A mouthwatering medley of pepperoni, sausage, bacon,
+                          ham, chicken, and mozzarella atop our flavorful tomato
+                          sauce
+                        </p>
+                      </div>
+                      <div class="itemPrice">
+                        <p>$6.35</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fried Chicken Items -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed custom-center"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFour"
+              aria-expanded="false"
+              aria-controls="flush-collapseFour"
+            >
+              Fried Chicken
+            </button>
+          </h2>
+          <div
+            id="flush-collapseFour"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              Placeholder content for this accordion, which is intended to
+              demonstrate the <code>.accordion-flush</code> class. This is the
+              third item's accordion body. Nothing more exciting happening here
+              in terms of content, but just filling up the space to make it
+              look, at least at first glance, a bit more representative of how
+              this would look in a real-world application.
+            </div>
+          </div>
+        </div>
+        <!-- Burgers Items -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed custom-center"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFive"
+              aria-expanded="false"
+              aria-controls="flush-collapseFive"
+            >
+              Burgers
+            </button>
+          </h2>
+          <div
+            id="flush-collapseFive"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+                <!-- Menu Section Description -->
+              <div class="menuSectionTitle">
+                <p>Guerrero's Burgers</p>
+              </div>
+              <div class="menuSectionDescription">
+                <p>
+                    Meet our juicy burgers, expertly grilled and stacked with mayo, ketchup, mustard, onion, lettuce, and tomato for a perfect bite. Level up your meal by adding a side of crispy fries and tangy coleslaw for just $2.18 – it's the ultimate burger combo!
+                </p>
+              </div>
+                <!-- Item 1 -->
+                <div class="menuComponentItem">
+                    <div class="itemImageBackground">
+                      <div class="itemImage">
+                        <div class="itemImageBgn">
+                          <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                        </div>
+                      </div>
+                      <div class="itemContent">
+                        <div class="itemContentFlex">
+                          <div class="itemTitle">
+                            <p>1/4 lb Burger</p>
+                          </div>
+                          <div class="itemDescription">
+                            <p>
+                              A mouthwatering medley of pepperoni, sausage, bacon,
+                              ham, chicken, and mozzarella atop our flavorful tomato
+                              sauce
+                            </p>
+                          </div>
+                          <div class="itemPrice">
+                            <p>$4.08</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                    <!-- Item 2 -->
+                    <div class="menuComponentItem">
+                        <div class="itemImageBackground">
+                          <div class="itemImage">
+                            <div class="itemImageBgn">
+                              <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                            </div>
+                          </div>
+                          <div class="itemContent">
+                            <div class="itemContentFlex">
+                              <div class="itemTitle">
+                                <p>1/4 lb Cheeseburger</p>
+                              </div>
+                              <div class="itemDescription">
+                                <p>
+                                  A mouthwatering medley of pepperoni, sausage, bacon,
+                                  ham, chicken, and mozzarella atop our flavorful tomato
+                                  sauce
+                                </p>
+                              </div>
+                              <div class="itemPrice">
+                                <p>$4.31</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <!-- Item 3 -->
+                    <div class="menuComponentItem">
+                        <div class="itemImageBackground">
+                          <div class="itemImage">
+                            <div class="itemImageBgn">
+                              <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                            </div>
+                          </div>
+                          <div class="itemContent">
+                            <div class="itemContentFlex">
+                              <div class="itemTitle">
+                                <p>1/4 lb Double Cheeseburger</p>
+                              </div>
+                              <div class="itemDescription">
+                                <p>
+                                  A mouthwatering medley of pepperoni, sausage, bacon,
+                                  ham, chicken, and mozzarella atop our flavorful tomato
+                                  sauce
+                                </p>
+                              </div>
+                              <div class="itemPrice">
+                                <p>$7.26</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <!-- Item 4 -->
+                    <div class="menuComponentItem">
+                        <div class="itemImageBackground">
+                          <div class="itemImage">
+                            <div class="itemImageBgn">
+                              <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                            </div>
+                          </div>
+                          <div class="itemContent">
+                            <div class="itemContentFlex">
+                              <div class="itemTitle">
+                                <p>1/2 lb Burger</p>
+                              </div>
+                              <div class="itemDescription">
+                                <p>
+                                  A mouthwatering medley of pepperoni, sausage, bacon,
+                                  ham, chicken, and mozzarella atop our flavorful tomato
+                                  sauce
+                                </p>
+                              </div>
+                              <div class="itemPrice">
+                                <p>$6.80</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <!-- Item 5 -->
+                    <div class="menuComponentItem">
+                        <div class="itemImageBackground">
+                          <div class="itemImage">
+                            <div class="itemImageBgn">
+                              <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                            </div>
+                          </div>
+                          <div class="itemContent">
+                            <div class="itemContentFlex">
+                              <div class="itemTitle">
+                                <p>1/2 lb Cheeseburger</p>
+                              </div>
+                              <div class="itemDescription">
+                                <p>
+                                  A mouthwatering medley of pepperoni, sausage, bacon,
+                                  ham, chicken, and mozzarella atop our flavorful tomato
+                                  sauce
+                                </p>
+                              </div>
+                              <div class="itemPrice">
+                                <p>$7.26</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <!-- Item 6 -->
+                    <div class="menuComponentItem">
+                        <div class="itemImageBackground">
+                          <div class="itemImage">
+                            <div class="itemImageBgn">
+                              <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                            </div>
+                          </div>
+                          <div class="itemContent">
+                            <div class="itemContentFlex">
+                              <div class="itemTitle">
+                                <p>1/2 lb Bacon Cheeseburger</p>
+                              </div>
+                              <div class="itemDescription">
+                                <p>
+                                  A mouthwatering medley of pepperoni, sausage, bacon,
+                                  ham, chicken, and mozzarella atop our flavorful tomato
+                                  sauce
+                                </p>
+                              </div>
+                              <div class="itemPrice">
+                                <p>$8.62</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <!-- Item 7 -->
+                    <div class="menuComponentItem">
+                        <div class="itemImageBackground">
+                          <div class="itemImage">
+                            <div class="itemImageBgn">
+                              <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                            </div>
+                          </div>
+                          <div class="itemContent">
+                            <div class="itemContentFlex">
+                              <div class="itemTitle">
+                                <p>1/2 lb Mushroom & Grilled Onion</p>
+                              </div>
+                              <div class="itemDescription">
+                                <p>
+                                  A mouthwatering medley of pepperoni, sausage, bacon,
+                                  ham, chicken, and mozzarella atop our flavorful tomato
+                                  sauce
+                                </p>
+                              </div>
+                              <div class="itemPrice">
+                                <p>$8.62</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <!-- Item 8 -->
+                    <div class="menuComponentItem">
+                        <div class="itemImageBackground">
+                          <div class="itemImage">
+                            <div class="itemImageBgn">
+                              <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                            </div>
+                          </div>
+                          <div class="itemContent">
+                            <div class="itemContentFlex">
+                              <div class="itemTitle">
+                                <p>1 lb Cheeseburger</p>
+                              </div>
+                              <div class="itemDescription">
+                                <p>
+                                  A mouthwatering medley of pepperoni, sausage, bacon,
+                                  ham, chicken, and mozzarella atop our flavorful tomato
+                                  sauce
+                                </p>
+                              </div>
+                              <div class="itemPrice">
+                                <p>$12.02</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+            </div>
+          </div>
+        </div>
+        <!-- Dinner Plate Items -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed custom-center"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseSix"
+              aria-expanded="false"
+              aria-controls="flush-collapseSix"
+            >
+              Dinner Plates
+            </button>
+          </h2>
+          <div
+            id="flush-collapseSix"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+                <!-- Menu Section Description -->
+              <div class="menuSectionTitle">
+                <p>Dinner Platters</p>
+              </div>
+              <div class="menuSectionDescription">
+                <p>
+                    Indulge in our dinner platters, loaded with savory favorites and perfectly paired with fluffy rice and hearty beans. It's the perfect end-of-the-day feast, bringing comfort to your table in every bite!
+                </p>
+              </div>
+              <!-- Item 1 -->
+              <div class="menuComponentItem">
+                <div class="itemImageBackground">
+                  <div class="itemImage">
+                    <div class="itemImageBgn">
+                      <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                    </div>
+                  </div>
+                  <div class="itemContent">
+                    <div class="itemContentFlex">
+                      <div class="itemTitle">
+                        <p>Platillo de Pastor/Pollo</p>
+                      </div>
+                      <div class="itemDescription">
+                        <p>
+                          A mouthwatering medley of pepperoni, sausage, bacon,
+                          ham, chicken, and mozzarella atop our flavorful tomato
+                          sauce
+                        </p>
+                      </div>
+                      <div class="itemPrice">
+                        <p>$13.19</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 2 -->
+              <div class="menuComponentItem">
+                <div class="itemImageBackground">
+                  <div class="itemImage">
+                    <div class="itemImageBgn">
+                      <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                    </div>
+                  </div>
+                  <div class="itemContent">
+                    <div class="itemContentFlex">
+                      <div class="itemTitle">
+                        <p>Platillo de Asada</p>
+                      </div>
+                      <div class="itemDescription">
+                        <p>
+                          A mouthwatering medley of pepperoni, sausage, bacon,
+                          ham, chicken, and mozzarella atop our flavorful tomato
+                          sauce
+                        </p>
+                      </div>
+                      <div class="itemPrice">
+                        <p>$14.06</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 3 -->
+              <div class="menuComponentItem">
+                <div class="itemImageBackground">
+                  <div class="itemImage">
+                    <div class="itemImageBgn">
+                      <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                    </div>
+                  </div>
+                  <div class="itemContent">
+                    <div class="itemContentFlex">
+                      <div class="itemTitle">
+                        <p>Taco Dinner</p>
+                      </div>
+                      <div class="itemDescription">
+                        <p>
+                          A mouthwatering medley of pepperoni, sausage, bacon,
+                          ham, chicken, and mozzarella atop our flavorful tomato
+                          sauce
+                        </p>
+                      </div>
+                      <div class="itemPrice">
+                        <p>$13.19</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 4 -->
+              <div class="menuComponentItem">
+                <div class="itemImageBackground">
+                  <div class="itemImage">
+                    <div class="itemImageBgn">
+                      <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                    </div>
+                  </div>
+                  <div class="itemContent">
+                    <div class="itemContentFlex">
+                      <div class="itemTitle">
+                        <p>Steak Taco Dinner</p>
+                      </div>
+                      <div class="itemDescription">
+                        <p>
+                          A mouthwatering medley of pepperoni, sausage, bacon,
+                          ham, chicken, and mozzarella atop our flavorful tomato
+                          sauce
+                        </p>
+                      </div>
+                      <div class="itemPrice">
+                        <p>$14.06</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 5 -->
+              <div class="menuComponentItem">
+                <div class="itemImageBackground">
+                  <div class="itemImage">
+                    <div class="itemImageBgn">
+                      <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                    </div>
+                  </div>
+                  <div class="itemContent">
+                    <div class="itemContentFlex">
+                      <div class="itemTitle">
+                        <p>Alambre</p>
+                      </div>
+                      <div class="itemDescription">
+                        <p>
+                          A mouthwatering medley of pepperoni, sausage, bacon,
+                          ham, chicken, and mozzarella atop our flavorful tomato
+                          sauce
+                        </p>
+                      </div>
+                      <div class="itemPrice">
+                        <p>$14.06</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 6 -->
+              <div class="menuComponentItem">
+                <div class="itemImageBackground">
+                  <div class="itemImage">
+                    <div class="itemImageBgn">
+                      <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                    </div>
+                  </div>
+                  <div class="itemContent">
+                    <div class="itemContentFlex">
+                      <div class="itemTitle">
+                        <p>Bistec a la Mexicana</p>
+                      </div>
+                      <div class="itemDescription">
+                        <p>
+                          A mouthwatering medley of pepperoni, sausage, bacon,
+                          ham, chicken, and mozzarella atop our flavorful tomato
+                          sauce
+                        </p>
+                      </div>
+                      <div class="itemPrice">
+                        <p>$14.97</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 7 -->
+              <div class="menuComponentItem">
+                <div class="itemImageBackground">
+                  <div class="itemImage">
+                    <div class="itemImageBgn">
+                      <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                    </div>
+                  </div>
+                  <div class="itemContent">
+                    <div class="itemContentFlex">
+                      <div class="itemTitle">
+                        <p>Arrachera Dinner</p>
+                      </div>
+                      <div class="itemDescription">
+                        <p>
+                          A mouthwatering medley of pepperoni, sausage, bacon,
+                          ham, chicken, and mozzarella atop our flavorful tomato
+                          sauce
+                        </p>
+                      </div>
+                      <div class="itemPrice">
+                        <p>$16.33</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 8 -->
+              <div class="menuComponentItem">
+                <div class="itemImageBackground">
+                  <div class="itemImage">
+                    <div class="itemImageBgn">
+                      <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                    </div>
+                  </div>
+                  <div class="itemContent">
+                    <div class="itemContentFlex">
+                      <div class="itemTitle">
+                        <p>Pechuga de Pollo a la Mexicana</p>
+                      </div>
+                      <div class="itemDescription">
+                        <p>
+                          A mouthwatering medley of pepperoni, sausage, bacon,
+                          ham, chicken, and mozzarella atop our flavorful tomato
+                          sauce
+                        </p>
+                      </div>
+                      <div class="itemPrice">
+                        <p>$13.19</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 9 -->
+              <div class="menuComponentItem">
+                <div class="itemImageBackground">
+                  <div class="itemImage">
+                    <div class="itemImageBgn">
+                      <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                    </div>
+                  </div>
+                  <div class="itemContent">
+                    <div class="itemContentFlex">
+                      <div class="itemTitle">
+                        <p>Rib Eye Steak</p>
+                      </div>
+                      <div class="itemDescription">
+                        <p>
+                          A mouthwatering medley of pepperoni, sausage, bacon,
+                          ham, chicken, and mozzarella atop our flavorful tomato
+                          sauce
+                        </p>
+                      </div>
+                      <div class="itemPrice">
+                        <p>$15.43</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 10 -->
+              <div class="menuComponentItem">
+                <div class="itemImageBackground">
+                  <div class="itemImage">
+                    <div class="itemImageBgn">
+                      <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                    </div>
+                  </div>
+                  <div class="itemContent">
+                    <div class="itemContentFlex">
+                      <div class="itemTitle">
+                        <p>Fajitas de Res</p>
+                      </div>
+                      <div class="itemDescription">
+                        <p>
+                          A mouthwatering medley of pepperoni, sausage, bacon,
+                          ham, chicken, and mozzarella atop our flavorful tomato
+                          sauce
+                        </p>
+                      </div>
+                      <div class="itemPrice">
+                        <p>$15.43</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 11 -->
+              <div class="menuComponentItem">
+                <div class="itemImageBackground">
+                  <div class="itemImage">
+                    <div class="itemImageBgn">
+                      <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                    </div>
+                  </div>
+                  <div class="itemContent">
+                    <div class="itemContentFlex">
+                      <div class="itemTitle">
+                        <p>Fajitas de Pollo</p>
+                      </div>
+                      <div class="itemDescription">
+                        <p>
+                          A mouthwatering medley of pepperoni, sausage, bacon,
+                          ham, chicken, and mozzarella atop our flavorful tomato
+                          sauce
+                        </p>
+                      </div>
+                      <div class="itemPrice">
+                        <p>$13.19</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 12 -->
+              <div class="menuComponentItem">
+                <div class="itemImageBackground">
+                  <div class="itemImage">
+                    <div class="itemImageBgn">
+                      <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                    </div>
+                  </div>
+                  <div class="itemContent">
+                    <div class="itemContentFlex">
+                      <div class="itemTitle">
+                        <p>1/2 Roasted Chicken</p>
+                      </div>
+                      <div class="itemDescription">
+                        <p>
+                          A mouthwatering medley of pepperoni, sausage, bacon,
+                          ham, chicken, and mozzarella atop our flavorful tomato
+                          sauce
+                        </p>
+                      </div>
+                      <div class="itemPrice">
+                        <p>$10.43</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Quesadilla Items -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed custom-center"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseSeven"
+              aria-expanded="false"
+              aria-controls="flush-collapseSeven"
+            >
+              Quesadillas
+            </button>
+          </h2>
+          <div
+            id="flush-collapseSeven"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+                                <!-- Menu Section Description -->
+              <div class="menuSectionTitle">
+                <p>Guerrero's Quesadillas</p>
+              </div>
+              <div class="menuSectionDescription">
+                <p>
+                    Savor our quesadillas, toasty flour tortillas generously filled with melted cheese, onion, cilantro, lettuce, and tomato and your choice of meat. Each bite is a fiesta of flavors that'll make you say "delicioso"!                </p>
+              </div>
+              <!-- Item 1 -->
+              <div class="menuComponentItem">
+                <div class="itemImageBackground">
+                  <div class="itemImage">
+                    <div class="itemImageBgn">
+                      <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                    </div>
+                  </div>
+                  <div class="itemContent">
+                    <div class="itemContentFlex">
+                      <div class="itemTitle">
+                        <p>Quesadilla con Carne</p>
+                      </div>
+                      <div class="itemDescription">
+                        <p>
+                          A mouthwatering medley of pepperoni, sausage, bacon,
+                          ham, chicken, and mozzarella atop our flavorful tomato
+                          sauce
+                        </p>
+                      </div>
+                      <div class="itemPrice">
+                        <p>$4.31</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 2 -->
+              <div class="menuComponentItem">
+                <div class="itemImageBackground">
+                  <div class="itemImage">
+                    <div class="itemImageBgn">
+                      <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                    </div>
+                  </div>
+                  <div class="itemContent">
+                    <div class="itemContentFlex">
+                      <div class="itemTitle">
+                        <p>Steak Quesadilla</p>
+                      </div>
+                      <div class="itemDescription">
+                        <p>
+                          A mouthwatering medley of pepperoni, sausage, bacon,
+                          ham, chicken, and mozzarella atop our flavorful tomato
+                          sauce
+                        </p>
+                      </div>
+                      <div class="itemPrice">
+                        <p>$4.54</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 3 -->
+              <div class="menuComponentItem">
+                <div class="itemImageBackground">
+                  <div class="itemImage">
+                    <div class="itemImageBgn">
+                      <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                    </div>
+                  </div>
+                  <div class="itemContent">
+                    <div class="itemContentFlex">
+                      <div class="itemTitle">
+                        <p>Quesadilla Vegetariana</p>
+                      </div>
+                      <div class="itemDescription">
+                        <p>
+                          A mouthwatering medley of pepperoni, sausage, bacon,
+                          ham, chicken, and mozzarella atop our flavorful tomato
+                          sauce
+                        </p>
+                      </div>
+                      <div class="itemPrice">
+                        <p>$4.08</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 4 -->
+              <div class="menuComponentItem">
+                <div class="itemImageBackground">
+                  <div class="itemImage">
+                    <div class="itemImageBgn">
+                      <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                    </div>
+                  </div>
+                  <div class="itemContent">
+                    <div class="itemContentFlex">
+                      <div class="itemTitle">
+                        <p>Quesadilla de Hongos</p>
+                      </div>
+                      <div class="itemDescription">
+                        <p>
+                          A mouthwatering medley of pepperoni, sausage, bacon,
+                          ham, chicken, and mozzarella atop our flavorful tomato
+                          sauce
+                        </p>
+                      </div>
+                      <div class="itemPrice">
+                        <p>$3.18</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 5 -->
+              <div class="menuComponentItem">
+                <div class="itemImageBackground">
+                  <div class="itemImage">
+                    <div class="itemImageBgn">
+                      <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                    </div>
+                  </div>
+                  <div class="itemContent">
+                    <div class="itemContentFlex">
+                      <div class="itemTitle">
+                        <p>Single Quesadilla</p>
+                      </div>
+                      <div class="itemDescription">
+                        <p>
+                          A mouthwatering medley of pepperoni, sausage, bacon,
+                          ham, chicken, and mozzarella atop our flavorful tomato
+                          sauce
+                        </p>
+                      </div>
+                      <div class="itemPrice">
+                        <p>$2.72</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 6 -->
+              <div class="menuComponentItem">
+                <div class="itemImageBackground">
+                  <div class="itemImage">
+                    <div class="itemImageBgn">
+                      <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                    </div>
+                  </div>
+                  <div class="itemContent">
+                    <div class="itemContentFlex">
+                      <div class="itemTitle">
+                        <p>Jumbo Quesadilla Single</p>
+                      </div>
+                      <div class="itemDescription">
+                        <p>
+                          A mouthwatering medley of pepperoni, sausage, bacon,
+                          ham, chicken, and mozzarella atop our flavorful tomato
+                          sauce
+                        </p>
+                      </div>
+                      <div class="itemPrice">
+                        <p>$6.58</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 7 -->
+              <div class="menuComponentItem">
+                <div class="itemImageBackground">
+                  <div class="itemImage">
+                    <div class="itemImageBgn">
+                      <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                    </div>
+                  </div>
+                  <div class="itemContent">
+                    <div class="itemContentFlex">
+                      <div class="itemTitle">
+                        <p>Jumbo Meat Quesadilla</p>
+                      </div>
+                      <div class="itemDescription">
+                        <p>
+                          A mouthwatering medley of pepperoni, sausage, bacon,
+                          ham, chicken, and mozzarella atop our flavorful tomato
+                          sauce
+                        </p>
+                      </div>
+                      <div class="itemPrice">
+                        <p>$10.88</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 8 -->
+              <div class="menuComponentItem">
+                <div class="itemImageBackground">
+                  <div class="itemImage">
+                    <div class="itemImageBgn">
+                      <img src="pics/pizza-hero.jpg" alt="Placeholder Image" />
+                    </div>
+                  </div>
+                  <div class="itemContent">
+                    <div class="itemContentFlex">
+                      <div class="itemTitle">
+                        <p>Jumbo Steak Quesadilla</p>
+                      </div>
+                      <div class="itemDescription">
+                        <p>
+                          A mouthwatering medley of pepperoni, sausage, bacon,
+                          ham, chicken, and mozzarella atop our flavorful tomato
+                          sauce
+                        </p>
+                      </div>
+                      <div class="itemPrice">
+                        <p>$11.55</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Mexican Food Items -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed custom-center"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseEight"
+              aria-expanded="false"
+              aria-controls="flush-collapseEight"
+            >
+              Mexican
+            </button>
+          </h2>
+          <div
+            id="flush-collapseEight"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              Placeholder content for this accordion, which is intended to
+              demonstrate the <code>.accordion-flush</code> class. This is the
+              third item's accordion body. Nothing more exciting happening here
+              in terms of content, but just filling up the space to make it
+              look, at least at first glance, a bit more representative of how
+              this would look in a real-world application.
+            </div>
+          </div>
+        </div>
+        <!-- Sides/Extras Items -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed custom-center"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseNine"
+              aria-expanded="false"
+              aria-controls="flush-collapseNine"
+            >
+              Sides/Extras/Drinks/Desserts
+            </button>
+          </h2>
+          <div
+            id="flush-collapseNine"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              Placeholder content for this accordion, which is intended to
+              demonstrate the <code>.accordion-flush</code> class. This is the
+              third item's accordion body. Nothing more exciting happening here
+              in terms of content, but just filling up the space to make it
+              look, at least at first glance, a bit more representative of how
+              this would look in a real-world application.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="footerFlex">
+        <!-- <div class="footerLogo">
+            <div class="logo_div">
+              <img
+                class="logo"
+                src="pics/Guerrero's Tacos & Pizza Logo Final.png"
+                alt="Guerrero's Pizza and Tacos"
+              />
+            </div>
+          </div> -->
+        <div class="footerTitle">
+          <div class="title_div">
+            <h1 class="title">GUERRERO'S</h1>
+            <h2 class="subtitle">PIZZA & TACOS</h2>
+          </div>
+        </div>
+        <div class="footerContentFlex">
+          <div class="footerPhone">
+            <p class="phone">
+              <i class="fa-solid fa-phone"> </i>
+              (773)232-0721
+            </p>
+          </div>
+
+          <div class="footerEmail">
+            <p class="email">
+              <i class="fa-solid fa-envelope"> </i>
+              info@guerreros@gmail.com
+            </p>
+          </div>
+
+          <div class="footerAddress">
+            <p class="address">
+              <i class="fa-solid fa-house"> </i>
+              2235 W Division St, Chicago, IL 60622
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // JavaScript code goes here
+    </script>
+    <!-- Bootstrap JS Import-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
